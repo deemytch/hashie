@@ -9,3 +9,4 @@ pkg
 .rvmrc
 Gemfile.lock
 log/
+/bin

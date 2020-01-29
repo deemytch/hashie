@@ -30,7 +30,7 @@ module Hashie
         # @param [String, Symbol] key the key to convert to a symbol
         # @return [void]
         def convert_key(key)
-          key.to_sym
+          key.is_a?( String ) ? key.to_sym : key
         end
       end
     end
